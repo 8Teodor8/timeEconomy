@@ -1,0 +1,470 @@
+header{
+    background-image:url(lightning.jpg);
+    height: 100vh;
+    background-size: cover;                                                 
+     background-attachment: fixed;
+}
+#translator{
+    background-color: #aeade9;
+}
+@font-face {
+    font-family: Tenor ;
+    src: url(Fonts/Tenor_Sans/TenorSans-Regular.ttf);
+}
+header h1{
+    color: #aeade9;;
+    font-family: Tenor ;
+    font-size: 4em;
+    font-weight: 100;
+    padding-top: 19vh;
+    padding-left: 29vw;
+    margin-top: 0;
+}
+body{
+    margin:0
+}
+.Logo{
+    /* background-color: #5a77916c;
+    background-color:white ; */
+    padding: 5vw;
+    text-align: center;
+    font-size: 25px;
+    border-top: 5px solid black;
+}
+/* .Logo img{
+    width: 10vw;
+} */
+.BMW{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.BMW img{
+    width: 50vw;
+    height: 65vh;
+    object-fit: cover;
+}
+.BMW p{
+    width: 50vw;
+    padding: 1vw;
+    font-size: 1.5em;
+    line-height: 2;
+    font-family: Tenor;
+}
+.interior{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.interior img{
+    width: 50vw;
+    height: 65vh;
+    object-fit: cover;
+}
+.interior div{
+    width: 50vw;
+    padding: 1vw; 
+    box-sizing: border-box;
+}
+.interior p{
+    padding: 0vw;
+    font-size: 1.5em;
+    line-height: 2;
+    font-family: Tenor;
+    margin: 0;
+}
+.interior h1{
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.AUDI{
+    background-image: url(AUDI.webp);
+    height: calc(100vh + 50px);
+    background-size: cover;
+}
+.AUDI div{
+    height: calc(100vh + 50px);
+    padding-top: 5px;
+}
+.AUDI div h1{
+    line-height: 2;
+    font-family: Tenor;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-left: 20px;
+    background-color: rgba(245, 245, 245, 0.432);
+    padding: 50px;
+    width: 50vw;
+    border-radius: 10px;
+}
+.AUDI_interior div{
+display:flex;
+margin-top: 25px;
+border-bottom: 3px solid black; 
+padding: 0 10px;
+border-top:  3px solid black;
+}
+.AUDI_interior img{
+    height: calc(50vh - 25px);
+}
+.AUDI_interior h1{
+    line-height: 2;
+font-family: Tenor;
+font-weight: 100;
+font-size: 1.5em;
+}
+.EQS img{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+.mercedes_car img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+}
+.mercedes_car figure{
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+}
+.mercedes_car{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.mercedes_car details{
+    font-size: 1.5em;
+}
+.mercedes_car summary{
+    font-size: 2em;
+outline: none;
+}
+.Lucid{
+    border-top:  3px solid black;
+    margin-top: 35px;
+}
+.images{
+    display:flex;
+    /* animation: go 25s infinite alternate ease-in-out; */
+}
+.slider{
+    width: 840px;
+    overflow: hidden;
+    position:relative
+}
+.images img{
+    width: 840px;
+}
+.images figure{
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.arrow_right{
+    position:absolute;
+    top: 50%;
+    right: 10px;
+    background-color: rgba(245, 245, 245, 0.322);
+    border-radius: 50%;
+}
+.arrow_left{
+    position:absolute;
+    top: 50%;
+    left: 10px;
+    background-color: rgba(245, 245, 245, 0.322);
+    border-radius: 50%;
+    transform: scaleX(-1);
+    display:none
+}
+.Lucid_car{
+    display:flex;
+    
+}
+.Information{
+    width: 60%;
+    padding: 5vw;
+    font-family: Tenor;
+    font-size: 1.5em;
+    padding: 1vw;
+    line-height: 1.9;
+    text-align: justify;
+}
+.Lucid_interior{
+    display: flex;
+}
+footer{
+padding: 50px;
+background-color: #122844;
+}
+footer img{
+    margin:0 20px;
+}
+.media{
+    display:flex
+}
+.social img:hover{
+transform: scale(0.5);
+transition: all 0.5s;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 500px;
+}
+nav a{
+    color: #aeade9;
+    font-family: Tenor ;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+nav a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.burger{
+    width: 48px;
+    height: 48px;
+    border: 5px solid#aeade9; ;
+    border-radius: 5px;
+    position:absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+}
+.line{
+    width: 70%;
+    height: 10%;
+    position: absolute;
+    left: 15%;
+    background-color:#aeade9;;
+    border-radius: 5px;
+}
+.line1{
+    top: 20%;
+}
+.line2{
+    top: 45%;
+}
+.line3{
+    bottom: 20%;
+    
+}
+@keyframes go{
+    from{
+        transform: translateX(0);
+    }
+    20%{
+        transform: translateX(-840px);
+    }
+    40%{
+        transform: translateX(-1680px);
+    }
+    60%{
+        transform: translateX(-2520px);
+    }
+    80%{
+        transform: translateX(-3360px);
+    }
+    to{
+        transform: translateX(-4200px);
+    }
+}
+.card{
+    width: 20%;
+    height: 38vh;
+    border: 2px solid black;
+    padding: 10px;
+}
+.card img {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+}
+.card:nth-child(2) img{
+    width: 25%;
+}
+.card:nth-child(1) h2 {
+}
+.time{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+@media(max-width:1000px){
+    header h1 {
+        font-size: 1em;
+padding-top: 9vh;
+}
+header{
+    background-size: cover;
+    height: 25vh;
+    width: 100%;
+}
+.BMW{
+    flex-direction: column;
+}
+.BMW img{
+    width: 100%;
+    height: 50vh;
+    height: auto;
+    object-fit: cover;
+}
+.BMW p{
+    width: 90vw ;
+    line-height: 1.5;
+    text-align: justify;
+}
+.interior{
+    flex-direction: column-reverse;
+}
+.interior img{
+    width: 100%;
+    height: 50vh;
+    height: auto;
+    object-fit: cover;
+}
+.interior p{
+    width: 90vw ;
+    line-height: 1.5;
+    text-align: justify;
+}
+.AUDI{
+    background-image: url(AUDI.webp);
+    height: calc(100vh + 50px);
+    height: 750px;
+    /* width: ; */
+    background-size: cover;
+}
+.AUDI div h1{
+    line-height: 1.5;
+    font-family: Tenor;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-left: 0;
+    background-color: rgba(245, 245, 245, 0.432);
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 750px;
+}
+.AUDI_interior div{
+    display:flex;
+    margin-top: 25px;
+    border-bottom: 3px solid black; 
+    padding: 0 10px;
+    border-top:  3px solid black;
+    flex-direction: column;
+    }
+    .AUDI_interior img{
+        height: calc(50vh - 25px);
+        height:auto;
+        object-fit: cover;
+    }
+    .AUDI_interior h1{
+        line-height: 2;
+    font-family: Tenor;
+    font-weight: 100;
+    font-size: 1.5em;
+    }
+    .EQS img{
+        width: calc(100% - 0px);
+        height: auto;
+        object-fit: cover;
+        margin: auto;
+        display: block;
+    }
+    .mercedes_car{
+        /* display:flex;
+        justify-content: space-between;
+        align-items: stretch; */
+        flex-direction: column;
+    }
+    .mercedes_car figure{
+        width: calc(90% - 16px);
+    }
+    .mercedes_car img{
+        width: 50%;
+        height: auto;
+    }
+    .mercedes_car summary{
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .mercedes_car details{
+        width: 100%;
+    }
+    .mercedes_car figcaption{
+        width: 100%;
+    }
+    *{
+        outline: 0px solid black;
+    }
+    .Lucid_car{
+        flex-direction: column-reverse;
+    }
+    .slider{
+        width: 100vw;
+        overflow: auto;
+    }
+    .Information{
+       width: 90vw; 
+       margin:auto
+    }
+    .images img{
+        width:100vw;
+    }
+    .arrow_left{
+        display: none;
+    }
+    .arrow_right{
+        display: none;
+    }
+    .Lucid_interior{
+        flex-direction: column-reverse;
+    }
+    .burger{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-width: 2px;
+    }
+    nav{
+        display:none;
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+    .time{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        padding: 10px;
+    }
+    .AUDI div h1{
+       margin-top: 0;
+    }
+    .AUDI div h1{
+        padding-top: 0;
+        font-size: 20px;
+
+    }
+    #translator{
+       width: 25px;
+       display: block;
+    margin-left: auto;
+    }
+    
+}
+
+
